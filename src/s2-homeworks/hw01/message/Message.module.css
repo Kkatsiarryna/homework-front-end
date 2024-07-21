@@ -1,0 +1,55 @@
+.message {
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+.imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+
+}
+
+.imageAndText img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.text {
+    background-color: #06c;
+    border-radius: 5px;
+    text-align: right;
+    padding: 7px 20px;
+    position: relative;
+}
+
+.text:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: -12px;
+    border: 20px solid transparent;
+    border-bottom: 20px solid #0066CC;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.messageText {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 3px;
+}
+
+.time {
+    font-weight: 600;
+    font-size: 10px;
+    color: #000;
+    margin-right: 12px;
+}

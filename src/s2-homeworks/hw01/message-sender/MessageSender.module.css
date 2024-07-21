@@ -1,0 +1,42 @@
+.sendForm {
+    display: flex;
+    gap: 45px;
+}
+
+.textarea {
+    border-radius: 20px;
+    flex: 1 1 auto; /* Устанавливает гибкость элемента для растяжения или сжатия в зависимости от доступного пространства. */
+    min-height: 40px;
+    padding: 12px 24px;
+    resize: none; /* Запрещает изменение размера элемента пользователем. */
+    border: none;
+    outline: none; /* Убирает обводку элемента при фокусе. */
+    box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.1), 0 5px 20px 0 rgba(29, 33, 38, 0.03);
+    background: #f5f7fb;
+}
+
+.button {
+    border-radius: 20px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: #06c;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+.button:hover {
+    background-color: rgba(1, 115, 225, 0.8);
+}
+.button:active {
+    background-color: rgb(6, 27, 124);
+}
+
+
+/*
+flex-grow: 0; !* элемент не может расти/растягиваться больше, чем исходный размер *!
+flex-shrink: 1; !* элемент может сжиматься меньше, чем исходный размер *!
+flex-basis: auto; !* исходный размер равен auto, то есть равен просто ширине элемента, но ширина элемента не задана, поэтому по содержимому *!*/
