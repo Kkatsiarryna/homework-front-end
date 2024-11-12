@@ -21,3 +21,7 @@ html {
 .select {
 
 }
+
+.selectLabel {
+  margin: 10px;
+}
